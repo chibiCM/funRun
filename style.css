@@ -1,0 +1,791 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: #D0AB96;
+  }
+
+/*Start navigation CSS*/
+/*Start color white nav for index.php and colour blue nav for register.php*/
+.index-page .nav-fluid-container{
+    background-color: #ffffff;
+} 
+.index-page .nav-fluid-container{
+    box-shadow: 0px 1px 3px #e9e9e9;
+
+}
+
+.register-page .nav-fluid-container{
+    background-color: #FFFFFF;
+} 
+
+.register-page .nav-fluid-container{
+    box-shadow: 0px 1px 3px #e9e9e9;
+
+}
+/*End color white nav for index.php and colour blue nav for register.php*/
+
+.nav-fluid-container{
+    /*box-shadow: 0px 1px 3px #dfdfdf;*/
+    z-index: 999;
+    position: fixed;
+}
+
+
+#nav-text-holder{
+display: flex;
+justify-content: end;
+}
+
+.navbar-toggler{
+    background-color: #0068ac;
+    box-shadow: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+} 
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler-icon{
+    width: 28px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 3px 0;
+}
+
+a.nav-link{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.nav-item a.nav-link:active{
+    font-weight: bold;
+    color: #0e76bc;
+}
+
+
+
+
+
+/*#nav-text-holder > ul > li.nav-item a.active{
+    font-weight: bold;
+    color: #0e76bc;
+}*/
+
+/*End navigation CSS*/
+
+
+/*Start index.php CSS*/
+.section1-holder{
+display: flex;
+    height: 100%!important;
+    background-color: #ffffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section1{
+    background-color: #ffffff;
+    margin-top: 80px;
+}
+
+.run-for-earth-img-holder img{
+    width: 100%;
+    max-width: 435px;
+}
+
+.run-for-earth-text{
+    width: 100%;
+    max-width: 435px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.run-for-earth-date{
+    font-size: 18px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.run-for-earth-reg-text{
+    font-size: 15px;
+}
+
+
+
+/*
+.water-img{
+    background-image: url('img/background.png');
+    width: 100%;
+    height: 203px;
+    background-repeat-x: repeat;
+}*/
+
+.container-fluid-water-img-holder{
+    margin-top: -70px;
+    background-color: #ffffff;
+}
+.container-fluid-water-img{
+    background-image: url(img/background.png);
+    width: 100%;
+    height: 203px;
+   background-repeat: round;
+    /*background-repeat: repeat-x;*/
+    display: none;
+    z-index: 990;
+    position: relative;
+}
+
+.water-img img{
+    width: 100%;
+}
+
+.reg-BTN-holder{
+    z-index: 999;
+}
+
+.run-for-earth-reg-BTN{
+    padding: 7px 30px 7px 30px;
+    border:2px solid #E76F00;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.run-for-earth-reg-BTN:hover{
+    cursor: pointer;
+}
+
+.blue-bot{
+    background-color: #D0AB96;
+    width: 100%;
+    height: 5px;
+    margin-top: -3px;   
+}
+
+
+/*End of index.php CSS*/
+
+/*Start of register.php CSS*/
+
+.regp-section1-holder{
+    display: flex;
+        height: 100%!important;
+        background-color: transparent;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
+.regp-section1{
+    background-color: transparent;
+    margin-top: 80px;
+}
+
+.regp-blue-bot{
+    background-color: #D0AB96;
+    width: 100%;
+    height: 5px;
+    margin-top: -3px;   
+}
+
+.form-and-text-holder{
+    width: 684px;
+}
+
+.text-holder{
+    background-color: transparent;
+    width: 100%;
+    max-width: 583px;
+}
+
+.sign-up-title{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Droid Sans', sans-serif;
+    color: #ffffff;
+}
+
+.sign-up-text{
+    font-size: 12px;
+    font-family: 'Droid Sans', sans-serif;
+    color: #ffffff;
+}
+
+.form-holder{
+    background-color: transparent;
+    width: 100%;/*newly*/
+}
+
+.form-control{
+color: #0068ac;
+}
+.form-holder .form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0!important;
+    font-size: 14px;
+    color: #0068ac;
+    font-weight: bold;
+}
+
+.form-holder .form-control::placeholder, .form-holder .form-control option{
+    font-size: 14px;
+    color: #0068ac;
+    font-weight: bold;
+}
+
+.classshirtsize, .classgender{
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url(img/dropdown.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 100%;
+}
+
+
+.lbl-TC{
+    margin:0 auto;
+    align-items: center;
+}
+
+.lbl-TC label{
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.lbl-TC input{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0
+    
+}
+
+/*
+#btnIDAddPart{
+    background-color: #0e76bc;
+    outline: 0;
+    border: 0;
+    font-size: 40px;
+    padding: 0;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+*/
+
+div.add-value-btn-text > input{
+    
+    background-color: #0e76bc!important;
+    outline: 0;
+    border: 0;
+    font-size: 40px;
+    padding: 0;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.5;
+}
+
+.add-more-part-text{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.regFRM-BTN-holder{
+    justify-content: flex-end;
+}
+
+.greenBTN{
+    background-color: #E76F00;
+    color: #ffffff;
+    width: auto;
+    outline: none;
+    border: none;
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.error-mes{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    width: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    /*border: solid #0e76bc 5px;*/
+    /*border: solid #39b54a 5px;*/
+    border: solid #E76F00 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.thewarning:before {
+    content: "\26A0";
+    font-weight: 100;
+}
+
+/**/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+  }
+  .cust-hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    opacity: 0.65;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+  }
+
+  .modal-content table th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .close {
+    /*color: #aaa;
+    float: right;
+    font-size: 28px;
+     padding: 0;*/
+    font-weight: bold;
+    cursor: pointer;
+
+    max-width: 100px;
+   
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-title{
+    font-size: 30px;
+    font-family: 'Droid Sans', sans-serif;
+  }
+
+  #participant{
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+  }
+
+  .modal-p p{
+    font-size: 14px;
+    font-family: 'Droid Sans', sans-serif;
+  }
+
+.modalTBL{
+    width: 100%;
+}
+
+.modal-content .modalTBLshowDes tr th, .modalTBLshowMob .separtor-modalTBLshowMob{
+    border-bottom: solid 1px lightgray;
+  }
+
+
+
+/*End register.php CSS*/
+
+
+/*Start runinfo.php CSS*/
+
+body.runinfo .nav-fluid-container{
+    background-color: #ffffff!important;
+    position: fixed;
+    margin-top: -80px !important;
+    box-shadow: 0px 1px 3px #e9e9e9;
+}
+
+body.runinfo {
+    background-color: #ffffff!important;
+}
+
+.section1-holder-runifo{
+    position: relative;
+    z-index: 998;
+    margin-top: 80px;
+    background-color: transparent;
+}
+
+.listofpartitle{
+    font-size: 30px;
+    font-family: 'Droid Sans', sans-serif;
+    margin-right: auto;
+}
+
+.sorterResultCol-Outer{
+    width: 96%;
+}
+
+.sorterCol{
+    /*background-color: gray;*/
+    height: fit-content;
+}
+
+.sorterResultCol{
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px #d5d5d5;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
+
+.all-top{
+    width: 100%;
+    padding: 25px;
+}
+
+.sorterResultColInner{
+    width: 100%;
+    padding: 25px;
+}
+
+.totalMF{
+    font-size: 18px;
+}
+
+.showEntries{
+    font-weight: bold;
+}
+
+.classtheSearch{
+    padding: 0;
+    margin: 0;
+    height: 23px;
+    
+}
+
+.searchBar{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+
+.tableResult{
+    width: 100%;
+}
+
+.tbodytableResult, .thtableResult{
+    border-bottom: 2px gray solid;
+}
+
+.resRow{
+    border-bottom: 1px lightgrey solid;
+}
+
+.tableResult td{
+    /*padding: 10px 15px;*/
+    padding: 2px 2px;
+}
+
+.classrunnerID{
+    font-weight: bold;
+}
+
+
+.tableSorter{
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #d5d5d5; /* this draws the table border  */ 
+}
+
+.sortRowButtons{
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+    width: 100%;
+    text-align: start;
+    color: #0e76bc;
+}
+
+.tableSorter td{
+    padding: 10px 15px;
+}
+
+.sortRow{
+    width: 100%;
+    /*box-shadow: 0 0 0 1px #d5d5d5;*/
+   /* box-shadow: 0 1px 0px 0px #d5d5d5;*/
+}
+
+tr.sortRow:last-child{
+    box-shadow: 0 0 0 0;
+}
+
+
+
+.sortholder{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.classsortASC, .classsortDESC{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    color: gray;
+}
+
+
+
+.thethtableresult{
+padding: 10px;
+
+justify-content: center;
+}
+
+.thethtableresult .row{
+margin: 0 auto;
+}
+
+.thethtableresult .row .col-8{
+    display: flex;
+    align-items: center;
+}
+
+.hundred{
+    min-width: 50px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tbodyResult{
+    border-bottom: 2px black solid;
+}
+
+
+.ulpagi{
+    float: right;
+}
+
+.abox{
+    padding: 5px 12px;
+    background-image: linear-gradient(white, lightgray);
+    border: 0.5px lightgray solid;
+}
+
+.ulpagi a{
+    text-decoration: none;
+    color: #414042;
+}
+
+.showpageof{
+    color: #414042;
+}
+
+.contactNum{
+    height: 29px!important;
+}
+
+
+.mobtr{
+    border-bottom: 1px solid black;
+}
+
+
+.onmob{
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sorterCol{
+    padding-left: 0;
+}
+
+
+.sorterColinnerCol {
+  align-items: start!important;
+}
+
+
+
+
+#nav-text-holder > ul > li .active{
+    font-weight: bold;
+    color:#0e76bc;
+}
+
+
+
+
+
+
+
+@media (max-width: 1399.98px) {
+    .hidemo{
+        display: none;
+    }
+
+    .hidedes{
+        display: block;
+    }
+
+}
+
+
+
+/* Medium devices (tablets, less than 992px) pababa*/
+@media (max-width: 991.98px) {
+
+    #nav-text-holder{
+    justify-content: flex-start;
+    } 
+
+    /*Start of index.php CSS*/
+    .container-fluid-water-img-holder{
+        margin-top: -20px;
+    }
+    /*End of index.php CSS*/
+
+    /*Start of register.php CSS*/
+    .lbl-TC{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .form-and-text-holder {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .participantdatereg{
+        text-align: start!important;
+    }
+
+    .modalTBLshowDes{
+        display: none;
+    }
+
+    /*Start of runinfo CSS*/
+    .searchBar{
+        text-align: start;
+        justify-content: start;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+
+    
+
+    .onmob{
+        padding: 20px;
+    }
+
+    .sorterCol{
+        padding: 0;
+    }
+
+    .sorterCol{
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 575.98px){
+    /*Start of index.php CSS*/
+    .container-fluid-water-img-holder{
+        margin-top: 0px;
+    }
+    /*End of index.php CSS*/
+
+    /*Start of register.php CSS*/
+    .regFRM-BTN-holder{
+        justify-content: center;
+    }
+
+}
+
+/*pataas*/
+@media (min-width: 991.99px){
+    .modalTBLshowMob{
+        display: none;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) pataas*/
+@media (min-width: 1400px) {
+    /*Start of index.php CSS*/
+    .container-fluid-water-img{
+    display: block;
+    } 
+
+    .water-img img{
+        display: none;
+    }
+    /*End of index.php CSS*/
+
+    .hidedes{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+
